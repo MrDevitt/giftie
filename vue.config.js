@@ -1,7 +1,10 @@
 // const path = require('path')
 module.exports = {
   lintOnSave: false,
-  outputDir: './docs'
+  outputDir: './docs',
+  publicPath: "./",
+  assetsDir:"./"
+  
 
   // build: {
   //   // Template for index.html
